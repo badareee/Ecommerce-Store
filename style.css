@@ -49,7 +49,7 @@ p {
 button.normal {
     font-size: 14px;
     font-weight: 600;
-    padding: 15px 30px ;
+    padding: 15px 30px;
     color: black;
     background-color: white;
     border-radius: 5px;
@@ -152,7 +152,7 @@ body {
     font-weight: 600;
     font-size: larger;
     background-repeat: no-repeat;
-    transition: 0.2s  ease;
+    transition: 0.2s ease;
 }
 
 #hero button:hover {
@@ -281,10 +281,11 @@ body {
     transition: 0.3s;
 }
 
-#product1 .pro-container .fa-shopping-cart:hover{
-    color:#0ca59b;
+#product1 .pro-container .fa-shopping-cart:hover {
+    color: #0ca59b;
     transform: scale(1.5);
 }
+
 #product1 .pro-container {
     display: flex;
     justify-content: space-between;
@@ -334,7 +335,67 @@ body {
 }
 
 
-#banner button:hover{
+#banner button:hover {
     color: #fff;
     background-color: #088178;
+}
+
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    vertical-align: center;
+    width: 100%;
+
+}
+
+#sm-banner .banner-box {
+    background-image: url(img/banner/b17.jpg);
+    background-size: cover;
+    max-width: 100%;
+    min-width: 500px;
+    height: 50vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 20px;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+#sm-banner h4 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#sm-banner h2 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+#sm-banner span {
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: white;
+    background-color:transparent;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s;
 }
