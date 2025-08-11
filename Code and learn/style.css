@@ -1,0 +1,31 @@
+h1::selection{
+    color: white;
+    background-color: black;
+}
+h1::first-line, h1::selection{
+    color: green;
+}
+
+h1::first-letter{
+    font-size: 45px;
+}
+h2::before{
+    content: '1: ';
+}
+/* h2::after{
+    background: #000;
+    color: white;
+    content: 'https://www.google.com'
+} */
+
+h2::after {
+    content: "";
+    display: inline-block;
+    width: 63px;
+    height: 23px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_2013_Google.png");
+    background-size: cover; /* or contain */
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
