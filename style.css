@@ -152,11 +152,12 @@ body {
     font-weight: 600;
     font-size: larger;
     background-repeat: no-repeat;
-    transition: 0.3s color ease;
+    transition: 0.2s  ease;
 }
 
 #hero button:hover {
-    font-weight: 700;
+    transform: scale(1.04);
+    color: #fff;
 }
 
 #feature .fe-box {
@@ -277,8 +278,13 @@ body {
     align-items: center;
     background-color: #e8f6ea;
     border: 1px solid #cce7d0;
+    transition: 0.3s;
 }
 
+#product1 .pro-container .fa-shopping-cart:hover{
+    color:#0ca59b;
+    transform: scale(1.5);
+}
 #product1 .pro-container {
     display: flex;
     justify-content: space-between;
@@ -327,10 +333,7 @@ body {
     padding: 10px 0px;
 }
 
-#banner button {
-    padding: ;
-    color: ;
-}
+
 #banner button:hover{
     color: #fff;
     background-color: #088178;
