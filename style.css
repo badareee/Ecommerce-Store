@@ -36,6 +36,7 @@ h6 {
 p {
     font-size: 16px;
     color: #465b52;
+    margin: 15px 0 20px 0
 }
 
 .section-p1 {
@@ -392,10 +393,119 @@ button.white {
     font-weight: 600;
     padding: 11px 18px;
     color: white;
-    background-color:transparent;
-    /* border-radius: 5px; */
+    background-color: transparent;
     cursor: pointer;
     border: 1px solid white;
     outline: none;
     transition: 0.2s;
+}
+
+#sm-banner #banner-box2 {
+    background-image: url(img/banner/b10.jpg);
+}
+
+#sm-banner .banner-box:hover button {
+    background-color: #088178;
+    border: none;
+}
+
+#banner3 .banner3 {
+    background-image: url(img/banner/b7.jpg);
+    width: 30%;
+
+    min-width: 400px;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    flex-grow: 1;
+    margin: 20px;
+}
+
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#banner3 h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3 {
+    color: #ec544e;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#banner3 .banner3-2 {
+    background-image: url(img/banner/b4.jpg);
+}
+
+#banner3 .banner3-3 {
+    background-image: url(img/banner/b18.jpg);
+}
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(img/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+    gap: 20px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newsletter p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+    margin-top: 9px;
+}
+
+#newsletter p span {
+    color: #ffbd27;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    width: 100%;
+    border: none;
+    outline: none;
+    font: size 14px;
+    border-radius: 4px;
+    min-width: 300px;
+}
+
+#newsletter button {
+    min-width: max-content;
+    max-width: min-content;
+    border-radius: 4px;
+    background-color: #088178;
+}
+
+#newsletter .form {
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+
 }
