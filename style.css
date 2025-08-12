@@ -157,7 +157,8 @@ body {
 }
 
 #hero button:hover {
-    transform: scale(1.04);
+    /* transform: scale(1.04); */
+    text-transform: scale(1.5);
     color: #fff;
 }
 
@@ -507,5 +508,59 @@ button.white {
     display: flex;
     background-color: #fff;
     border-radius: 5px;
-
 }
+
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#footer .col {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 20px; */
+    gap: 10px;
+}
+
+#footer .col p {
+    padding: 0;
+    margin: 7px 0;
+}
+
+#footer .col .follow h4 {
+    margin: 8px 0px;
+}
+
+#footer .col a {
+    color: rgb(0, 102, 255);
+    text-decoration: none;
+}
+
+#footer .col .img {
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#footer .col .img:hover {
+    transform: scale(1.05);
+}
+
+#footer {
+    background-color: rgb(201, 201, 201);
+}
+
+body .copyright {
+    background-color: rgb(201, 201, 201);
+    padding: 0 0px 70px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#footer .icon a i {
+    font-size: 30px;
+    padding: 0px 10px 16px 0px;
+}
+
+/* Media Quries */
